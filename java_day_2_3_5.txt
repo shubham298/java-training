@@ -1,0 +1,179 @@
+1.wrapper classes:Integer,Short,Long,Float,Character
+
+day3
+
+OOPS
+1.Encapsulation-it contain class and method and data is hidden.
+2.Polymorphism:compile time/static/overloading/runt time/dynamic/overrding
+
+4 types of inner classes;
+
+1.class can be static memeber 
+2.class cann be not static memeber.
+3.class can be inside a method.
+4.the class can be a anonymous
+
+literal -can create a object using new
+	10 classes
+		Wrapper class
+		String
+		Object
+
+static	-No individual copy
+	-static value is afftectd by recent object usage.
+	-can be accessed without object
+
+method is a non static memeber
+
+non-static memeber: has the privledge to acces all member
+staic member -can access by creqating an object 
+
+abstract method:it contain declearation
+non-abm:it contain defination
+
+class has non-abm
+interface has abm
+
+Overriding-everything is same but logic is different.
+
+
+2.create an laptop class with
+model,ram,hdd,price
+I.create atleast 9 laptops
+II.arrange them into 3*3 array in order of spiral
+example:
+lap1,lap2,lap3,lap4,lap5,lap6,lap7,lap8,lap9
+
+example 
+
+
+
+
+
+
+		ABSTRACTION
+
+
+Toll gate/booth application
+Classes:
+	Abstract Vehicle:
+	data member:permit and type
+	abstract method:pay
+Private vehicle:
+	daat member:privatecollection(sum of all private vehicles) 
+	method:pay:
+np light>>60,np heavy >>100
+sp light>>40,np heavy>>50
+Commericalvehicle:
+	data member:commercialCollection,
+method:pay:
+np light>>100,np heavy>>150
+sp light>>80,np heavy>>110
+
+
+final:	->we cannot inherit 
+	->it can be instantiated but not extended
+
+
+			Thread
+Parlell computing
+
+single task multi thread>> synchronized
+multi task multi thread >> asynchronied
+
+resource Class:
+implementation of thread
+either by extends Thread or implements Runnable
+public void run(){}
+Main class:
+Thread are created and triggered to resorce
+Thread obj=new Thread(resource,"name");//born
+
+	join 
+Thread.currentThread().getName()
+Thread.currentThread().getId()
+Thread.currentThread().getPriority()
+	Waiting:
+sleep,wait
+	Running:
+start,run,notify
+	termination:
+stop
+
+
+
+
+thread implemtation
+single task multi thread
+synchronized
+join
+sync block
+Multitask multithread
+inter thread commnuication
+
+
+		Exception
+	Exception situation which leads ur program to be terminated abnormlly
+throwable
+Exception>>java.lang
+
+
+Compile time/ Checked:
+eg:
+InterruptedException
+IoException
+
+Runtime Error:
+ArrayOutofBound Exception
+
+Stringindexoutboundexception
+imputmismatchException
+.
+.
+.
+ways:
+ 
+
+try{
+	//probable statements
+}catch(ExceptionClass obj){
+
+//handling
+	obj.printStackTrace();//Tracking information in which line,block,class,package
+	sysout(obj)//name of exception with technical instruuction
+}
+
+unchecked exception>> runtime exception
+
+throw --> use to throw user define exception from try to catch block
+throws ---> use to throw predefined exception automatically 
+
+
+		file
+//Serializtion
+//Deserialization
+
+
+
+		XML
+Setting/Config
+
+Marshel--> JAVA TO XML
+UNMARSHEL --> XML to JAVA
+
+
+
+		FRAMEWORK
+
+LIST:
+	stack
+	linkedlist ---> add and addlast do samething
+			remove and removefirst do same.
+	Array
+
+
+
+Genreic - iT holds different datatype
+Non Genric - it holds specific type
+
+MAP:
